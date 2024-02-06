@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kontakt</title>
+		<link rel="shortcut icon" href=" img/icon.ico" />
+		<meta charset="utf-8" />
+		<meta name="keywords" content="restoran, hrana, vina, jela, specijaliteti"/>
+		<meta name="description" content="Mesto na kojem možete uživati u izvrsnoj hrani i piću" />
+		<meta name="author" content="Mihailo Mlađenović" /> 
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />		
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/7fd42dcfb7.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<div id="okvirMeni">
+					<div class="leviMeni">
+						<ul>
+							<li>
+								<a href="index.html">Početna</a>
+							</li>
+							<li>
+								<a href="oAutoru.html">O Autoru</a>
+							</li>						
+						</ul>
+					</div>			
+					<div class="desniMeni">
+						<ul>
+							<li>
+								<a href="oNama.html">O Nama</a>
+							</li>
+							<li>
+								<a href="kontakt.html">Kontakt</a>
+							</li>
+					</div>
+					<div class="cleaner">
+					</div>
+			</div>
+			<div id="naslov"> 
+				<div id="ime">
+					<h2>Dash's</h2>
+				</div>	
+			</div>
+			<div id="desnaStrana">
+				<div id="naslovR">
+					<h1>Rezerviši online</h1>
+				</div>
+				<div id="forma">
+					<form>
+						<input type="text" action="rezervacija.php" method="get" name="Ime" placeholder="Ime" /><br>						
+						<input type="text" action="rezervacija.php" method="get" name="Prezime" placeholder="Prezime"/><br>	
+						<input type="number" action="rezervacija.php" method="get" name="Broj" placeholder="Broj Telefona"/><br>					
+						<input type="date" action="rezervacija.php" method="get" name="Datum" required min="2024-01-29" max="2024-12-31"/><br>	
+						<input type="time" action="rezervacija.php" method="get" name="Vreme"/><br>						
+						<input type="radio" action="rezervacija.php" method="get" name="Radio" /> 1 osoba <br>
+						<input type="radio" action="rezervacija.php" method="get" name="Radio" /> 2 osobe<br>
+						<input type="radio" action="rezervacija.php" method="get" name="Radio" /> 4 osobe<br>
+						<input type="radio" action="rezervacija.php" method="get" name="Radio" /> više od 4	<br>					
+						<input type="submit" action="rezervacija.php" method="get" name="Pošalji" value="Pošalji rezervaciju"/>	 
+					</form>
+				</div>
+			</div>			
+		</header>
+			<div id="kontakt">
+				<div id="naslovK">
+					<h1>Kontakt</h1>
+				</div>
+				<div id="kontakti">
+					<p>Broj telefona: + 381 63 267772</p><br>
+					<p>Broj restorana: + 381 11 3420987</p><br>
+					<p>E-mail: restorandashs@gmail.com</p><br>					
+				</div>
+			</div>
+		<footer>
+			<div id="adresa">
+				<p> Restoran se nalazi na adresi Dušana Jovanovića 4</p>
+			</div>
+			<div id="copyright">				
+				<p>&copy Copyright 2024. sva autorska prava zadržava Visoka ICT u čijem je vlasništvu sajt</p>				
+			</div>
+			<div id="mrezeRestorana">
+				<div class="mreza">
+					<a href="sitemap.xml" target="_blank"><span><i class="fas fa-sitemap"></i></span></a>
+				</div>	
+				<div class="mreza">
+					<a href="rss.xml" target="_blank"><span><i class="fas fa-rss-square"></i></span></a>
+				</div>	
+				<div class="mreza">
+					<a href="https://www.facebook.com" target="_blank"><span><i class="fab fa-facebook-square"></i></span></a>
+				</div>
+				<div class="mreza">
+					<a href="http://www.instagram.com" target="_blank"><span><i class="fab fa-instagram"></i></span></a>
+				</div>
+				<div class="mreza">
+					<a href="http://www.gmail.com" target="_blank"><span><i class="fas fa-envelope-square"></i></span></a>
+				</div>	
+				<div class="cleaner">
+				</div>
+			</div>
+		</footer>	
+	</body>
+</html>
