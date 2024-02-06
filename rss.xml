@@ -1,0 +1,22 @@
+<rss version="2.0">
+	<channel>
+		<title>Nova objava</title>
+		<link>https://miki2005.github.io/Dashrestaurant/</link>
+		<description>Izmene u meniju od našeg novog šefa kuhinje</description>
+		<item>
+			<title>Riblja pašteta</title>
+			<link>https://miki2005.github.io/Dashrestaurant/</link>
+			<description>Posetite naš restoran i probajte nešto novo</description>
+		</item>
+		<item>
+			<title>Domaće piroške</title>
+			<link>https://miki2005.github.io/Dashrestaurant/</link>
+			<description>Još jedna dopuna u našoj ponudi domaće kuhinje</description>
+		</item>
+		<item>
+			<title>Novo belo vino</title>
+			<link>https://miki2005.github.io/Dashrestaurant/</link>
+			<description>Allegro 2024. osvežavajuće suvo belo vino</description>
+		</item>
+	</channel>
+</rss>
